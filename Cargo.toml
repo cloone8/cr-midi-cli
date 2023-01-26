@@ -1,0 +1,13 @@
+[package]
+name = "cr-midi-cli"
+version = "0.0.0"
+edition = "2021"
+license = "GPL-3.0-only"
+repository = "https://github.com/cloone8/cr-midi-cli"
+keywords = ["midi", "smf", "cli"]
+description = "A MIDI parsing and transformation CLI tool written in Rust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cr-midi = "0.0.0"
